@@ -1,0 +1,6 @@
+2017-07-31 01:06:32,181 [main] INFO  b.c.c.s.d.s.application.Application - Starting Application on Felipe-PC with PID 8864 (started by Felipe in D:\Felipe\Projetos Proprios\cinq_teste\spring-jpa-jersey)
+2017-07-31 01:06:32,240 [main] INFO  b.c.c.s.d.s.application.Application - No active profile set, falling back to default profiles: default
+2017-07-31 01:06:37,729 [localhost-startStop-1] WARN  o.g.j.internal.inject.Providers - A provider br.com.cinq.spring.data.sample.resource.CityResource registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider br.com.cinq.spring.data.sample.resource.CityResource will be ignored. 
+2017-07-31 01:06:39,381 [main] WARN  o.a.tomcat.jdbc.pool.ConnectionPool - maxIdle is larger than maxActive, setting maxIdle to: 50
+2017-07-31 01:06:41,773 [main] INFO  b.c.c.s.d.s.application.Application - Started Application in 10.194 seconds (JVM running for 11.186)
+2017-07-31 01:06:50,025 [http-nio-8090-exec-1] INFO  b.c.c.s.d.s.resource.CityResource - GET /rest/cities

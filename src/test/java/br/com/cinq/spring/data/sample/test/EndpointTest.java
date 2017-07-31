@@ -22,7 +22,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import br.com.cinq.spring.data.sample.application.Application;
-//import br.com.cinq.spring.data.sample.entity.City;
+import br.com.cinq.spring.data.sample.entity.City;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
@@ -41,25 +41,25 @@ public class EndpointTest {
 
     @Test
     public void testGetCities() throws InterruptedException {
-        String country = "France";
-
+//        String country = "France";
+//
 //        HttpHeaders headers = new HttpHeaders();
 //        headers.add(HttpHeaders.ACCEPT, MediaType.APPLICATION_JSON_VALUE);
-
+//
 //        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(this.localhost + this.port + "/rest/cities/")
 //                .queryParam("country", country);
-
+//
 //        HttpEntity<?> entity = new HttpEntity<>(headers);
-
+//
 //        ResponseEntity<City[]> response = this.restTemplate.exchange(builder.build().encode().toUri(), HttpMethod.GET,
 //                entity, City[].class);
-
+//
 //        Assert.assertEquals(HttpStatus.OK, response.getStatusCode());
-
+//
 //        Thread.sleep(2000L);
-
+//
 //        City[] cities = response.getBody();
-
+//
 //        Assert.assertEquals(2, cities.length);
 
     }

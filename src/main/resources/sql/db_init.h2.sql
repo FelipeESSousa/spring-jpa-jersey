@@ -28,6 +28,7 @@ INSERT INTO `City` (name, country_id) VALUES('Curitiba',1);
 INSERT INTO `City` (name, country_id) VALUES('Rio de Janeiro',1);
 INSERT INTO `City` (name, country_id) VALUES('Manaus',1);
 INSERT INTO `City` (name, country_id) VALUES('Fortaleza',1);
+INSERT INTO `City` (name, country_id) VALUES('Uberlândia',1);
 INSERT INTO `City` (name, country_id) VALUES('New York',2);
 INSERT INTO `City` (name, country_id) VALUES('Los Angeles',2);
 INSERT INTO `City` (name, country_id) VALUES('Atlanta',2);
